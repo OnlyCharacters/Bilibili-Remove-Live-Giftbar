@@ -1,2 +1,5 @@
-# Bilibili-Remove-Live-Giftbar
-移除b站直播间礼物条
+### README
+
+去除B站直播间的礼物条。
+
+[安装]()
