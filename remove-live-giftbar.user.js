@@ -11,12 +11,11 @@
 
 (function() {
     'use strict';
-    let interval = null;
     function deleteGiftBar() {
-        let frame = $('iframe')[1].contentDocument.getElementById("gift-control-vm-new");
-        frame.remove();
+        //$('iframe')[1].contentDocument.getElementById("gift-control-vm-new").remove();
+        document.getElementById('gift-control-vm-new').remove()
     }
-    //interval = setInterval(deleteGiftBar, 3000);
-    setTimeout(deleteGiftBar, 5000);
+    setInterval(deleteGiftBar, 3000);
+    //setTimeout(deleteGiftBar, 5000);
     // Your code here...
 })();
